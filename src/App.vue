@@ -35,8 +35,9 @@ body {
 
 .app {
   min-height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 
   &__header {
     background: #fff;
@@ -57,7 +58,6 @@ body {
   }
 
   &__content {
-    max-width: 1400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
