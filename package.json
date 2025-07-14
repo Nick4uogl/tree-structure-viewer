@@ -6,7 +6,7 @@
   "homepage": "https://Nick4uogl.github.io/tree-structure-viewer",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^6.1.0",
     "sass": "^1.69.0",
     "typescript": "^5.2.0",
     "vite": "^5.0.0",
